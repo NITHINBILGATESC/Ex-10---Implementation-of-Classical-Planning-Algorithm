@@ -1,7 +1,7 @@
 #ExpNo:10 Implementation of Classical Planning Algorithm 
 
-NAME:  
-REG NO:
+NAME: NITHIN BILGATES C
+REG NO: 2305001022
 ## Algorithm or Steps Involved:
 Define the initial state
 Define the goal state
@@ -44,7 +44,7 @@ Output:
 
 ### PROGRAM
 ```
-    return current_state == goal_state
+return current_state == goal_state
 def apply_action(current_state, action_effect):
     new_state = current_state.copy()
     new_state.update(action_effect)
